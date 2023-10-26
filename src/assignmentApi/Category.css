@@ -1,0 +1,25 @@
+/* Category.css */
+
+/* Style the container */
+.container {
+    padding: 20px;
+  }
+  
+  /* Style the category items */
+  .cat {
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+  }
+  
+  .cat:hover {
+    transform: scale(1.05);
+    background-color: #e0e0e0;
+    cursor: pointer;
+  }
+  
